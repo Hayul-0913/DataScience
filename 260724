@@ -1,0 +1,23 @@
+1. DataFrame에서 특정 값을 가져오는 방법?
+Indexing: df["Name"]
+Slicing: df[0:10]
+여러 행을 선택하는것: names[[1,2,3]]
+
+2. df.loc[]는 어떤 코드?
+인덱스와 열의 이름을 이용해 데이터를 선택할수있는 함수이다.
+
+3. df.describe()는 무엇을 하는 코드?
+데이터의 기본 통계의 정보를 보여주는 함수이다.
+
+4. df["Position"].value_counts()는 무엇을 하는가?
+Position 값이 몇번 등장하는지 개수를 세어주는 코드이다.
+
+5. 새로운 Column은 어떻게 추가하는가?
+["New"] = 새로운 값
+
+6. 특정 Column은 어떻게 삭제하는가?
+df.drop(columns=["Age"])
+
+v df.drop() 에서 inplace 가 True 이면? False 이면? 
+True: DataFrame을 바로 수정한다.
+False: 원래 원본은 유지가되고 수정된 DataFrame을 새로 만들어진다.
