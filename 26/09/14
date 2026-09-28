@@ -1,0 +1,10 @@
+1. np.cov(data, bias=True)는 무엇을 하는것?
+A,B,C 데이터 사이의 확률변수를 계산하는 코드이다.
+2. Correlation은 무엇?
+두 데이터가 서로 얼마나 관련되어 connection을 보여주는지 나타내는 것이다.
+3. Correlation Matrix를 구하는 방법?
+df.corr()
+4. KFold(n_splits=3, shuffle=True, random_state=42)는 무엇을 하는것?
+데이터를 3개로 나누어서 여러번 확인을하고 데이터를 섞어서 나누는 코드이다.
+5. model.fit() / model.score()는 무엇을 하는것?
+fit()은 모델을 배우게 학습을 시키고 score()는 학습된 모델을 보며 성능을 확인한다.
